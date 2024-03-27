@@ -206,58 +206,12 @@
 				</div>
 				<div class="team-member">
 					<NuxtPicture
-						src="/ppc/filip.jpg"
-						alt=""
-						:imgAttrs="{ style: 'display: block; width:100%; height:100%; object-fit: cover; object-position: center;' }" />
-					<div class="texts">
-						<h3>Filip</h3>
-						<span>Obchodní manager</span>
-						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-						<div class="info">
-							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-							<!-- <p>
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-								laborum.
-							</p> -->
-						</div>
-					</div>
-					<!-- <div class="info mobile">
-						<p>
-							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div> -->
-				</div>
-				<div class="team-member">
-					<NuxtPicture
-						src="/ppc/jana.jpg"
-						alt=""
-						:imgAttrs="{ style: 'display: block; width:100%; height:100%; object-fit: cover; object-position: center;' }" />
-					<div class="texts">
-						<h3>Jana</h3>
-						<span>Obchodní manager</span>
-						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-						<div class="info">
-							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-							<!-- <p>
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-								laborum.
-							</p> -->
-						</div>
-					</div>
-					<!-- <div class="info mobile">
-						<p>
-							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div> -->
-				</div>
-				<div class="team-member">
-					<NuxtPicture
 						src="/ppc/petra.jpg"
 						alt=""
 						:imgAttrs="{ style: 'display: block; width:100%; height:100%; object-fit: cover; object-position: center;' }" />
 					<div class="texts">
 						<h3>Petra</h3>
-						<span>Account manager</span>
+						<span>Social Media specialist</span>
 						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
 						<div class="info">
 							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
@@ -281,52 +235,6 @@
 					<div class="texts">
 						<h3>Dmitry</h3>
 						<span>Senior PPC specialist</span>
-						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-						<div class="info">
-							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-							<!-- <p>
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-								laborum.
-							</p> -->
-						</div>
-					</div>
-					<!-- <div class="info mobile">
-						<p>
-							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div> -->
-				</div>
-				<div class="team-member">
-					<NuxtPicture
-						src="/ppc/martin.jpg"
-						alt=""
-						:imgAttrs="{ style: 'display: block; width:100%; height:100%; object-fit: cover; object-position: center;' }" />
-					<div class="texts">
-						<h3>Martin</h3>
-						<span>PPC specialist</span>
-						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-						<div class="info">
-							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
-							<!-- <p>
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-								laborum.
-							</p> -->
-						</div>
-					</div>
-					<!-- <div class="info mobile">
-						<p>
-							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div> -->
-				</div>
-				<div class="team-member">
-					<NuxtPicture
-						src="/ppc/karel.jpg"
-						alt=""
-						:imgAttrs="{ style: 'display: block; width:100%; height:100%; object-fit: cover; object-position: center;' }" />
-					<div class="texts">
-						<h3>Karel</h3>
-						<span>Social media manager</span>
 						<a class="mail-mobile" href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>
 						<div class="info">
 							<a href="mailto:info@mirandamedia.cz">info@mirandamedia.cz</a>

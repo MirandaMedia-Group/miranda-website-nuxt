@@ -54,6 +54,24 @@
 				</div>
 			</div>
 		</section>
+		<section class="blog">
+			<div class="container">
+				<h2 class="text-center">Průvodce digitálním marketingem</h2>
+				<div class="text-center container narrow">
+					<p>
+						O krok napřed ve světě digitálního marketingu s MirandaMedia Group! Náš blog je plný novinek ze světa e-commerce,
+						marketingu a inovativních nástrojů online reklamy. Najdete zde vše od průlomových aktualit po praktické návody a
+						Insider tipy. Přečtěte si o aktualitách z Mirandy, dozvíte se také o našem týmu a o připravovaných projektech.
+					</p>
+				</div>
+				<PostsGrid style="margin: 60px 0">
+					<SinglePost v-for="(item, index) in data" :key="index" :item="item" />
+				</PostsGrid>
+				<div class="buttons-center">
+					<BtnSecondary url="/clanky" text="Všechny články" />
+				</div>
+			</div>
+		</section>
 		<section class="commentary">
 			<div class="container">
 				<h2 class="text-center">Co říkáte na Mirandu?</h2>
@@ -115,6 +133,7 @@
 	</main>
 </template>
 <script setup>
+	const { find } = useStrapi()
 	useHead({
 		title: 'Mirandamedia.cz - Kreativní digitální agentura pro vaše podnikání',
 		meta: [
@@ -125,6 +144,14 @@
 			},
 		],
 	})
+	const { data } = await find('clanky', {
+		populate: '*',
+		sort: 'publishedAt:desc',
+		pagination: {
+			limit: 3,
+		},
+	})
+	console.log(data)
 </script>
 <style lang="scss">
 	.proc-miranda {

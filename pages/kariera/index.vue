@@ -191,30 +191,7 @@
 					<!-- </SwiperSlide>
 
 						<SwiperSlide> -->
-					<div class="lide__slide">
-						<div class="lide__slide-image">
-							<NuxtPicture
-								src="/lide/martin2.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img" />
-							<NuxtPicture
-								src="/lide/martin2-alt.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img lide__img--hover" />
-						</div>
-						<div class="lide__slide-content">
-							<h3>Martin</h3>
-							<p>PPC specialist</p>
-						</div>
-					</div>
+
 					<!-- </SwiperSlide>
 
 						<SwiperSlide> -->
@@ -245,57 +222,11 @@
 					<!-- </SwiperSlide>
 
 						<SwiperSlide> -->
-					<div class="lide__slide">
-						<div class="lide__slide-image">
-							<NuxtPicture
-								src="/lide/monika.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img" />
-							<NuxtPicture
-								src="/lide/monika-alt.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img lide__img--hover" />
-						</div>
-						<div class="lide__slide-content">
-							<h3>Monika</h3>
-							<p>Front office manager</p>
-						</div>
-					</div>
+
 					<!-- </SwiperSlide>
 
 						<SwiperSlide> -->
-					<div class="lide__slide">
-						<div class="lide__slide-image">
-							<NuxtPicture
-								src="/lide/karel.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img" />
-							<NuxtPicture
-								src="/lide/karel-alt.jpg"
-								:imgAttrs="{
-									style: 'display:block; width:100%; height:100%; object-fit:cover;',
-								}"
-								alt=""
-								loading="lazy"
-								class="lide__img lide__img--hover" />
-						</div>
-						<div class="lide__slide-content">
-							<h3>Karel</h3>
-							<p>PPC specialist</p>
-						</div>
-					</div>
+
 					<!-- </SwiperSlide>
 						
 						<SwiperSlide> -->
@@ -320,7 +251,7 @@
 						</div>
 						<div class="lide__slide-content">
 							<h3>Petra</h3>
-							<p>PPC Specialist</p>
+							<p>Social Media specialist</p>
 						</div>
 					</div>
 					<div class="lide__slide">
