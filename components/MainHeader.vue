@@ -50,6 +50,7 @@
 					<ul class="menu-level-2">
 						<li><NuxtLink to="/sprava-ppc-kampani">Správa PPC kampaní</NuxtLink></li>
 						<li><NuxtLink to="/audit-ppc">Audit PPC</NuxtLink></li>
+						<li><NuxtLink to="/shoptetnamiru">Shoptet na míru</NuxtLink></li>
 					</ul>
 				</li>
 				<li><NuxtLink to="/clanky">Blog</NuxtLink></li>

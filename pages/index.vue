@@ -60,8 +60,7 @@
 				<div class="text-center container narrow">
 					<p>
 						O krok napřed ve světě digitálního marketingu s MirandaMedia Group! Náš blog je plný novinek ze světa e-commerce,
-						marketingu a inovativních nástrojů online reklamy. Najdete zde vše od průlomových aktualit po praktické návody a
-						Insider tipy. Přečtěte si o aktualitách z Mirandy, dozvíte se také o našem týmu a o připravovaných projektech.
+						marketingu a inovativních nástrojů online reklamy.
 					</p>
 				</div>
 				<PostsGrid style="margin: 60px 0">
@@ -151,7 +150,6 @@
 			limit: 3,
 		},
 	})
-	console.log(data)
 </script>
 <style lang="scss">
 	.proc-miranda {
