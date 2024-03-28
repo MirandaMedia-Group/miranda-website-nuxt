@@ -49,7 +49,7 @@
 					<p>
 						<strong>
 							+25
-							<small>profefionálů</small>
+							<small>profesionálů</small>
 						</strong>
 					</p>
 				</div>
