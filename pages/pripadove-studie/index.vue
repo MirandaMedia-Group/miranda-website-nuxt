@@ -13,10 +13,10 @@
 				<li>Fotíme produkty ve vlastním studiu</li>
 			</ul>
 			<div class="buttons">
-				<a class="btn btn-accent" href="#kontakt"> Domluvte si schůzku </a>
+				<a class="btn btn-accent" href="#pripadovky"> Prohlédnout případovky </a>
 			</div>
 		</HeroBig>
-		<section class="container">
+		<section id="pripadovky" class="container">
 			<h2 class="text-center">Případové studie a reference</h2>
 			<div class="text-center container narrow">
 				<p>Nahlédněte pod pokličku vzniku e-shopů na Shoptetu a správy kampaní</p>
