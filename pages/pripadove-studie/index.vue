@@ -6,11 +6,10 @@
 			</div>
 			<h1>Případové studie</h1>
 			<ul class="styled-list">
-				<li>Tvoříme e-shopy na míru na Shoptet a Shoptet Premium</li>
-				<li>Spravujeme PPC kampaně</li>
-				<li>Staráme se o sociálně sítě</li>
-				<li>Navrhujeme design produktů a značek</li>
-				<li>Fotíme produkty ve vlastním studiu</li>
+				<li>E-shopy na míru na Shoptet a Shoptet Premium</li>
+				<li>Webové prezentace</li>
+				<li>Mobilní aplikace</li>
+				<li>Výkonnostní kampaně</li>
 			</ul>
 			<div class="buttons">
 				<a class="btn btn-accent" href="#pripadovky"> Prohlédnout případovky </a>
