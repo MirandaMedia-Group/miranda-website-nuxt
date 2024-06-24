@@ -8,6 +8,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'@dargmuesli/nuxt-cookie-control',
 		'@zadigetvoltaire/nuxt-gtm',
+		'nuxt-module-hotjar',
 	],
 	vite: {
 		css: {
@@ -115,5 +116,9 @@ export default defineNuxtConfig({
 	},
 	site: {
 		url: 'https://www.mirandamedia.cz',
+	},
+	hotjar: {
+		hotjarId: 3093150,
+		scriptVersion: 6,
 	},
 })
