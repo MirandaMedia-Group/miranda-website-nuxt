@@ -76,6 +76,8 @@
 	const formSending = useState('formSending', () => false)
 	const formSent = useState('formSent', () => false)
 
+	const route = useRoute()
+
 	const sendForm = async (e) => {
 		e.preventDefault()
 		try {
@@ -91,6 +93,7 @@
 						web: form.web.value.value,
 						platform: form.platform.value.value,
 						budget: form.budget.value.value,
+						url: route.fullPath,
 					},
 				}),
 			})

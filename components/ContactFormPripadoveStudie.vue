@@ -80,6 +80,8 @@
 	const formSending = useState('formSending', () => false)
 	const formSent = useState('formSent', () => false)
 
+	const route = useRoute()
+
 	const sendForm = async (e) => {
 		e.preventDefault()
 		try {
@@ -92,6 +94,7 @@
 						email: form.email.value.value,
 						phone: form.phone.value.value,
 						message: form.message.value.value,
+						url: route.fullPath,
 					},
 				}),
 			})

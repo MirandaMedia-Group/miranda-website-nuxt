@@ -65,6 +65,8 @@
 	const formSending = useState('formSending', () => false)
 	const formSent = useState('formSent', () => false)
 
+	const route = useRoute()
+
 	const sendForm = async (e) => {
 		e.preventDefault()
 		const formData = new FormData()
