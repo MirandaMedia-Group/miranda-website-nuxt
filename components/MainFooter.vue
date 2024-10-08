@@ -108,9 +108,10 @@
 							<NuxtImg src="/sklik.png" loading="lazy" alt="Ověření Sklik" width="123" height="63" />
 						</div>
 						<div>
-							<!-- <a href="https://partneri.shoptet.cz/profesionalove/shoptetnamiru-cz/" target="_blank" rel="noopener"> -->
-							<NuxtImg src="/premium-parnet.svg" loading="lazy" alt="Shoptet Premium Partner" width="101" height="101" />
-							<!-- </a> -->
+							<a href="https://www.shoptetpremium.cz/" target="_blank" rel="noopener">
+								<!-- <a href="https://partneri.shoptet.cz/profesionalove/shoptetnamiru-cz/" target="_blank" rel="noopener"> -->
+								<NuxtImg src="/premium-parnet.svg" loading="lazy" alt="Shoptet Premium Partner" width="101" height="101" />
+							</a>
 						</div>
 					</div>
 				</div>
