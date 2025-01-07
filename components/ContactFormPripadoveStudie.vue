@@ -98,7 +98,6 @@
 		try {
 			formSending.value = true
 			const token = recaptcha.value
-			console.log(token)
 			if (!token) {
 				formSending.value = false
 				console.error('Recaptcha failed')
