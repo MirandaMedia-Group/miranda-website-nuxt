@@ -71,6 +71,8 @@
 	</div>
 </template>
 <script setup>
+	import { VueReCaptcha, useReCaptcha } from 'vue-recaptcha-v3'
+
 	const form = {
 		jmeno: ref(null),
 		email: ref(null),
@@ -82,10 +84,26 @@
 
 	const route = useRoute()
 
+	const recaptcha = ref(null)
+
+	onMounted(async () => {
+		const { executeRecaptcha, recaptchaLoaded } = useReCaptcha()
+		await recaptchaLoaded()
+		console.log('recaptcha loaded')
+		recaptcha.value = await executeRecaptcha('contact_form_1')
+	})
+
 	const sendForm = async (e) => {
 		e.preventDefault()
 		try {
 			formSending.value = true
+			const token = recaptcha.value
+			console.log(token)
+			if (!token) {
+				formSending.value = false
+				console.error('Recaptcha failed')
+				return
+			}
 			const response = await $fetch(getStrapiURL('/api/ezforms/submit'), {
 				method: 'POST',
 				body: JSON.stringify({
