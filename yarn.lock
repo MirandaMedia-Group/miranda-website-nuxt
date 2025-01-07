@@ -7879,6 +7879,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"recaptcha-v3@npm:^1.8.0":
+  version: 1.11.3
+  resolution: "recaptcha-v3@npm:1.11.3"
+  checksum: 121e65b89e6cfcdb6d00839b76a448a90310a7fa2c8764eb8b4e78a6ac05046b0832f224ee78c5a014e4138e41bb07ef887be453295619bac3cb95fc0e0e0b5f
+  languageName: node
+  linkType: hard
+
 "redis-errors@npm:^1.0.0, redis-errors@npm:^1.2.0":
   version: 1.2.0
   resolution: "redis-errors@npm:1.2.0"
@@ -8049,6 +8056,7 @@ __metadata:
     nuxt-swiper: ^1.0.1
     sass: ^1.56.1
     sass-loader: ^10.4.1
+    vue-recaptcha-v3: ^2.0.1
     vue-social-sharing: ^4.0.0-alpha4
     vue3-google-map: ^0.15.0
     vue3-lottie: ^2.4.0
@@ -9641,6 +9649,17 @@ __metadata:
   version: 0.1.0
   resolution: "vue-devtools-stub@npm:0.1.0"
   checksum: 3f19fa2ab6d7f65de459f6c10d8f1d682dcd4ac55934c37617423d4a70efb98aa0a35f290120ec0c429ddcc0bdb7458836f87763ee0b8acfe007e4869f67dbbb
+  languageName: node
+  linkType: hard
+
+"vue-recaptcha-v3@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "vue-recaptcha-v3@npm:2.0.1"
+  dependencies:
+    recaptcha-v3: ^1.8.0
+  peerDependencies:
+    vue: ^3.0.11
+  checksum: fdd1142e508f8a8fc1aa616794935bc7c85c3c3c681e7ef2b43fda259275ef7b492d0c09f4012c0b956d85ec2c8965dd1874849a6d51f16a1dad6aae8076d879
   languageName: node
   linkType: hard
 
